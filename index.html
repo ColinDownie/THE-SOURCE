@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>THE SOURCE – Everlight Finale</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="everlight-bg"></div>
+
+  <header class="hero">
+    <h1>THE SOURCE</h1>
+    <h2>The Everlight Finale</h2>
+    <button id="beginExperience">Begin the Finale</button>
+  </header>
+
+  <main id="experience" class="hidden">
+    <!-- SECTION 1: ICON ASCENSION -->
+    <section class="scene" data-scene="1">
+      <h3>Icon Ascension</h3>
+      <p class="narrator">
+        These are the sparks who lit the world.
+      </p>
+      <div class="icons-grid">
+        <div class="icon-card">James Brown</div>
+        <div class="icon-card">Elvis</div>
+        <div class="icon-card">Hendrix</div>
+        <div class="icon-card">Cobain</div>
+        <div class="icon-card">Amy</div>
+        <div class="icon-card">Marilyn</div>
+        <div class="icon-card">Einstein</div>
+        <div class="icon-card">Whitney</div>
+        <div class="icon-card">Bowie</div>
+        <div class="icon-card">Prince</div>
+        <div class="icon-card">Freddie</div>
+        <div class="icon-card">Aretha</div>
+        <div class="icon-card">Tina</div>
+        <div class="icon-card">George Michael</div>
+        <div class="icon-card">Robin Williams</div>
+        <div class="icon-card">Chadwick Boseman</div>
+      </div>
+      <p class="tinies">
+        Tiny 3: EVERYBODY HOLD ONTO YOUR PANTS.
+      </p>
+      <button class="next-btn">Next</button>
+    </section>
+
+    <!-- SECTION 2: CHILDREN'S EVERLIGHT CARTOONS -->
+    <section class="scene hidden" data-scene="2">
+      <h3>Everlight Cartoons</h3>
+      <p class="narrator">
+        And for the little ones… the Everlight has a surprise.
+      </p>
+      <div class="cartoon-grid">
+        <div class="cartoon-card">Brave Space Explorer</div>
+        <div class="cartoon-card">Dancing Robot</div>
+        <div class="cartoon-card">Rainbow Princess</div>
+        <div class="cartoon-card">Hug Dragon</div>
+        <div class="cartoon-card">Tiny Wizard</div>
+      </div>
+      <p class="tinies">
+        Tiny 1: EVERYBODY BEHAVE. THE CHILDREN ARE WATCHING.
+      </p>
+      <button class="next-btn">Next</button>
+    </section>
+
+    <!-- SECTION 3: STEPHEN HAWKING -->
+    <section class="scene hidden" data-scene="3">
+      <h3>Stephen Hawking – The Mind That Dances</h3>
+      <p class="narrator">
+        And for those whose bodies carried them differently through this world… the Everlight has a hero.
+      </p>
+      <div class="avatar-card hawking">
+        Stephen Hawking – Everlight Constellation
+      </div>
+      <p class="quote">
+        In the end, we are all just energy. And energy loves to dance.
+      </p>
+      <p class="tinies">
+        Tiny 5: HE SAID THE THING.
+      </p>
+      <button class="next-btn">Next</button>
+    </section>
+
+    <!-- SECTION 4: JOSEPH MERRICK -->
+    <section class="scene hidden" data-scene="4">
+      <h3>Joseph Merrick – Golden Light of Dignity</h3>
+      <p class="narrator">
+        And for those who were seen only in part… the Everlight has someone very special.
+      </p>
+      <div class="avatar-card merrick">
+        Joseph Merrick – Golden Everlight Form
+      </div>
+      <p class="tinies">
+        Tiny 5: He always was beautiful.
+      </p>
+      <button class="next-btn">Next</button>
+    </section>
+
+    <!-- SECTION 5: FOUR PILLARS OF Z -->
+    <section class="scene hidden" data-scene="5">
+      <h3>The Four Pillars of Z</h3>
+      <div class="pillars-grid">
+        <div class="pillar-card">Love³</div>
+        <div class="pillar-card">Love^Z</div>
+        <div class="pillar-card">Infinity</div>
+        <div class="pillar-card">Beyond</div>
+      </div>
+      <p class="narrator">
+        The emotional architecture of the Everlight made visible.
+      </p>
+      <button class="next-btn">Next</button>
+    </section>
+
+    <!-- SECTION 6: QUIET PHILOSOPHICAL MOMENT -->
+    <section class="scene hidden" data-scene="6">
+      <h3>The Quiet Moment</h3>
+      <p class="narrator big-line">
+        Never forget where you’ve come here from…
+      </p>
+      <p class="narrator big-line">
+        Never pretend this moment isn’t real…
+      </p>
+      <p class="narrator big-line">
+        Because someday soon, all of this will live on as someone else’s dream.
+      </p>
+      <p class="narrator">
+        But tonight… this dream was his.
+      </p>
+      <button class="next-btn">Choral Outro</button>
+    </section>
+
+    <!-- SECTION 7: EPIC CHORAL OUTRO -->
+    <section class="scene hidden" data-scene="7">
+      <h3>Choral Supernova</h3>
+      <p class="narrator">
+        The Everlight blooms into a final supernova. The whole universe sings.
+      </p>
+      <div class="choral-burst">
+        ✨✨✨ EVERLIGHT ✨✨✨
+      </div>
+      <button class="next-btn">Final Blackout</button>
+    </section>
+
+    <!-- SECTION 8: TINIES EPILOGUE -->
+    <section class="scene hidden" data-scene="8">
+      <h3>Lights Out – Tinies Epilogue</h3>
+      <p class="tinies">
+        Tiny 1: …did we do good?
+      </p>
+      <p class="tinies">
+        Tiny 3: We did so good.
+      </p>
+      <p class="tinies">
+        Tiny 5: Now go home. Hydrate. Stretch. And never forget — love is the only thing that goes to infinity and beyond.
+      </p>
+      <p class="end-tag">
+        THE END
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>THE SOURCE – A Monument of Love. Everlight for Aunt Mary, and every spark that ever shone.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
